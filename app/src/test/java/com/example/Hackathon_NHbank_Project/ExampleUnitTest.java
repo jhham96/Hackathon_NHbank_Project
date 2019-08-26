@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.Hackathon_NHbank_Project;
 
 import org.junit.Test;
 
