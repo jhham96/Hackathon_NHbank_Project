@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <LinearLayout
         android:id="@+id/background"
@@ -12,7 +13,8 @@
         android:layout_height="match_parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,22 +27,25 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="네 신용에 물주기"
+                android:text="HanTOL"
                 android:textSize="25dp"
                 android:fontFamily="@font/kbiz_hanmaumgothic_b"
                 android:textColor="@color/white"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="매우 편함\n매우 빠름 아주 좋은 어플임다"
+                android:text="엄마보다 빠른 용돈 충전소"
+                android:gravity="center"
                 android:textSize="25dp"
                 android:fontFamily="@font/kbiz_hanmaumgothic_b"
                 android:textColor="@color/white"
-                android:layout_marginTop="100dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginTop="50dp"
+                />
 
         </LinearLayout>
 
@@ -62,16 +67,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            >
 
             <ImageView
+                android:id="@+id/AdImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="fitXY"/>
+                android:scaleType="fitXY"
+                />
         </LinearLayout>
     </androidx.viewpager.widget.ViewPager>
 
